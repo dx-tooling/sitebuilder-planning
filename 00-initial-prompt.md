@@ -30,3 +30,22 @@ The general idea is to build an ETFS-based (Enterprise Tooling for Symfony) Symf
 The resulting Symfony application will be hosted in a Ubuntu GNU/Linux server environment; the deliverable will be a collection of Docker containers (application, webserver, database).
 
 The developer experience on the CLI will be dominated by the mise-en-place setup as provided by the starter kit, and the dev environment will be provided through the Docker compose setup provided by said starter kit.
+
+
+### Main features
+
+The new application needs to encapsulate the following core features/use-cases:
+
+- Sign up, sign in, reset password
+
+- Create organization, invite org members, manage org teams and team-member associations
+
+- Configure org-wide bring-your-own-keys for GitHub token (an orgs content projects are versioned as private GH repositories) and LLM API keys
+
+- Create new content project
+  - Under the hood, this boils down to creating a new GH repository based off of landingpages-ai-templates, so that the code is available within the site editor, and to enable git-based versioning of the work done on the content project
+
+- Content editor
+  - This provides a chat interface to the user, as well as 
+
+
