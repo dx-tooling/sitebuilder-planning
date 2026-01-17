@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The goal of the ETFS SiteBuilder project is to create one or software applications that result in the Web-UI-based SaaS-ification of the landingpages-ai-template project for non-technical people.
+The goal of the SiteBuilder project is to create one or software applications that result in the Web-UI-based SaaS-ification of the landingpages-ai-template project for non-technical people.
 
 
 ### Status Quo
