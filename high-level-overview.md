@@ -45,14 +45,33 @@ The new application needs to encapsulate the following core features/use-cases:
 - Create new content project
   - Under the hood, this boils down to creating a new GH repository based off of landingpages-ai-templates, so that the code is available within the site editor, and to enable git-based versioning of the work done on the content project
 
-- Content editor
-  - This provides a chat interface to the user, allowing them to instruct the embedded LLM-based coding agent (which has the landinpages-ai-template git clone plus some system prompts as its context) via a text-to-page-edits approach, and thus modify the content pages via AI
+- Content project editor
+  - This provides a chat interface to the user, allowing them to instruct the embedded LLM-based coding agent (which has the landinpages-ai-template git clone plus some system prompts as its context) via a text-to-page-edits approach, and thus modify the content pages via AI, while creating a new version on every round of changes
   - It further provides a preview area, which acts a bit like an embedded browser, allowing the user to see the current state of their content pages
   - It further provides a history feature, allowing the user to revert changes and go back to previous versions of their content pages
   - It further provides an "Export" feature, which allows the user to download a ZIP file containing the dist bundle with the self-contained, serveable HTML/CSS/JavaScript of their content pages
 
 
+### List of feature verticals
 
+#### Common
 
+#### StaticPages
 
+#### OrgManagement
 
+#### ContentProjectManagement
+
+#### ContentProjectVersioning
+
+#### ContentProjectEditor
+
+#### ContentEditorChat
+
+#### ContentEditorBrowserPreview
+
+#### WorkspaceManagement
+
+#### DockerIntegration
+
+#### LlmIntegration
